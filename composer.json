@@ -1,0 +1,21 @@
+{
+    "name": "quansitech/qs-sensitive",
+    "description": "sensitive words",
+    "type": "library",
+    "keywords": ["sensitive", "DFA"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tiderjian",
+            "email": "tider_yatsen@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qssensitive\\": "src"
+        }
+    }
+}
